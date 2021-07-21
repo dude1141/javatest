@@ -18,6 +18,7 @@ public class Exarray {
 		}
 		
 		
+		//r:a r is reference and a is the array
 		
 		for (int r:a) {
 			
