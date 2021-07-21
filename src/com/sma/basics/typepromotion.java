@@ -19,7 +19,7 @@ public class typepromotion {
 			
 			typepromotion n1=new typepromotion();
 			
-			//'A' is promoted to int A has some ascii value
+			//'A' is promoted to int ,here 'A' has some ascii value
 			
 			n1.calculate(10, 'A');
 			
