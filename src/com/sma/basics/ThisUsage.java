@@ -17,11 +17,7 @@ public class ThisUsage {
 	
 	
 	ThisUsage(int age){
-<<<<<<< HEAD
 		this();//invoking line 11 constructor in 19th line constructor
-=======
-		//this() will call default constructor in line 11
->>>>>>> 33f06095616b94aef66ab4d9a57deb09d0ff81c7
 		this.age=age;
 		System.out.println("Single PArameterised constructor");
 		
