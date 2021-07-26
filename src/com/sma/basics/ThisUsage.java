@@ -18,6 +18,7 @@ public class ThisUsage {
 	
 	ThisUsage(int age){
 		this();
+		//this() will call default constructor in line 11
 		this.age=age;
 		System.out.println("Single PArameterised constructor");
 		
