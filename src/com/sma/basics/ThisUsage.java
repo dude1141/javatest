@@ -17,7 +17,7 @@ public class ThisUsage {
 	
 	
 	ThisUsage(int age){
-		this();
+		this();//invoking line 11 constructor in 19th line constructor
 		this.age=age;
 		System.out.println("Single PArameterised constructor");
 		
@@ -28,16 +28,24 @@ public class ThisUsage {
 	void process(){
 		
 		System.out.println("print process");
+		}
+	
 		
+	//getObject is a method of return type ThisUsage object
+	ThisUsage getObject() {
 		
-		
+		return this;
 	}
-
+	
+	
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 			ThisUsage n1=new ThisUsage( 20);
 			n1.getClass();
+			
+			n1.getObject();
 			
 			
 			
