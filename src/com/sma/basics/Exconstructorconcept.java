@@ -22,7 +22,7 @@ public class Exconstructorconcept {
 		this.Name=Name;
 	}
 	
-	
+	//getEmpdata is a method
 	public  void getEmpdata() {
 		
 		System.out.println("Eid"+Eid+","+"Name"+Name);
