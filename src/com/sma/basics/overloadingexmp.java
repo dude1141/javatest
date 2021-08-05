@@ -5,6 +5,7 @@ public class overloadingexmp {
 
 
 		//having same method name but different arguements
+	//can be achieved in single class where are overdiing can be achieved in different classes like parent child
 		public void sum(int x, int y) {
 
 			int a = x + y;
