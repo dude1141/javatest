@@ -13,6 +13,9 @@ class Parent3 {
 
 	
  public class Exmethodoverriding extends Parent3{
+
+	 //we are overriding the method defined in parent3 in class Exmethodoverriding
+	 //want to implement differently functionality for same method then we use this one
 		
 		@Override 
 		public void test1() {
